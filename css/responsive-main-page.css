@@ -1,0 +1,55 @@
+@media screen and (max-width:768px) {
+    #navbar-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar{
+        padding: 0 5vw;
+    }
+
+    #navbar-right{
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    #background #arrow, #background #image{
+        display: none;
+    }
+    #section-1-content #main-content{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #section-1-content{
+        padding: 0;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mid-text1, #mid-text2, #mid-text3{
+        text-align: center;
+    }
+
+    #card1, #card2, #card3{
+        position: relative;
+        width: 16rem;
+        height: 24rem;
+        transform-style: preserve-3d;
+        transition: transform 0.6s;
+    }
+
+    #card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

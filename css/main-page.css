@@ -1,0 +1,183 @@
+#section-1 {
+    z-index: 100;
+    /* setting height */
+    min-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    /* ////////////// */
+
+    /* margin & padding */
+    /* padding: 2rem 3rem; */
+    /* ////////////// */
+
+    /* position */
+    position: relative;
+    /* //////// */
+}
+
+a{
+    text-decoration: none !important;
+}
+
+#section-1-content {
+    max-width: 100vw;
+}
+
+#section-1-content #main-content {
+    padding: 10rem 1rem 10rem 10rem;
+    /* background-color: aqua; */
+}
+
+#ready-to-start{
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+
+#background-prop {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 40vw;
+    height: 65vh;
+    z-index: 0;
+}
+
+#background #image{
+    transition: 0.5s;
+    position: absolute;
+    right: 8rem;
+    top: 7.5rem;
+    max-width:36vw;
+}
+
+#background #arrow{
+    transform: 0.5s;
+    position: absolute;
+    right: 40rem;
+    top: 14rem;
+    max-width: 15%; 
+    transform: scaleY(-1);
+}
+
+#navbar{
+    position: relative;
+    z-index: 102;
+    padding-top: 8px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#section-2{
+    scroll-snap-type: y mandatory;
+    background-image: linear-gradient(
+        to bottom,
+        var(--primary-background) 10%,
+        #AAA99C 100%
+    );
+    min-width: 100vw;
+    min-height: 50vh;
+    box-sizing: border-box;
+    /* ////////////// */
+
+    /* margin & padding */
+    padding: 2rem 3rem;
+    /* ////////////// */
+
+    /* position */
+    position: relative;
+    /* //////// */
+    
+}
+
+#section-2-content #main-content{
+    padding: 0 0 20vh;
+}
+
+#product-tag{
+    padding-bottom: 10px;
+}
+
+#card-container{
+    perspective: 1000px;
+}
+
+#card1, #card2, #card3{
+    position: relative;
+    width: 20rem;
+    max-width: 20rem;
+    height: 30rem;
+    max-height: 30rem;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+#card1 #front, #card1 #back, #card2 #front, #card2 #back, #card3 #front, #card3 #back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    backface-visibility: hidden;
+}
+
+#card1 #front, #card2 #front, #card3 #front{
+    background-position: center;
+    background-size: contain    ;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    transform: rotateY(0deg);
+    padding-top: 10px;
+}
+
+#card1 #front #text, #card1 #back #text, #card2 #front #text, #card2 #back #text, #card3 #front #text, #card3 #back #text{
+    background-color: var(--product-box-background);
+    padding: 2px 4px;
+}
+
+#card1 #back, #card2 #back, #card3 #back{
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: baseline;
+    transform: rotateY(180deg);
+}
+
+#card1:hover, #card2:hover, #card3:hover{
+    transform: rotateY(180deg);
+}
+
+#card1 #front{
+    background-image: url(../Assets/Breakfast1.jpg);
+}
+
+#card1 #back{
+    background-image: url(../Assets/Breakfast2.jpg);
+}
+
+#card2 #front{
+    background-image: url(../Assets/Lunch1.jpg);
+}
+
+#card2 #back{
+    background-image: url(../Assets/Lunch2.jpg);
+}
+
+#card3 #front{
+    background-image: url(../Assets/Dinner1.jpg);
+}
+
+#card3 #back{
+    background-image: url(../Assets/Dinner2.jpg);
+}
+
+#footer{
+    background-color: #000000;
+    min-height: 20vh;
+    padding: 0 5rem;
+}
+
+#footer{
+    color: #ffffff;
+}

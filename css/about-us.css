@@ -1,0 +1,61 @@
+#navbar{
+    position: relative;
+    z-index: 101;
+    padding-top: 8px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#section-1{
+    z-index: 100;
+    min-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#main-content{
+    position: relative;
+    margin: 15vh;
+    z-index: 1;
+}
+
+#main-content #about-us{
+    padding-bottom: 3vh;
+}
+
+#chef-about-us{
+    position: relative;
+    transition: 0.5s;
+    border-radius: 50%;
+    max-width: 20rem;
+    max-height: 20rem;
+    float: right;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-left: 10px;
+}
+
+#content-about-us{
+    padding-left: 5rem;
+}
+
+#background-prop {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 40vw;
+    height: 65vh;
+    z-index: 0;
+}
+
+#footer{
+    background-color: #000000;
+    min-height: 20vh;
+    padding: 0 5rem;
+}
+
+#footer{
+    color: #ffffff;
+}

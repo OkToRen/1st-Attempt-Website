@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/AOL - HCI"
+		},
+		{
+			"path": "../../../Downloads/LabHci/Template HCI S05"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project codes"
+	}
+}

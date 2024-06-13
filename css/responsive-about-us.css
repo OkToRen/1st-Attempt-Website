@@ -1,0 +1,37 @@
+@media screen and (max-width:768px) {
+    #navbar-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar{
+        padding: 0 5vw;
+    }
+
+    #navbar-right{
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    #chef-about-us{
+        width: 30vw;
+        height: 30vw;
+    }
+    
+    #content-about-us{
+        margin: 0;
+        padding: 0;
+    }
+
+    #content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 5vh;
+    }
+
+
+}

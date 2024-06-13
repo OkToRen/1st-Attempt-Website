@@ -1,0 +1,17 @@
+* {-webkit-font-smoothing: antialiased!important;}
+
+@font-face {
+    font-family: "Aoboshi";
+    font-weight: 1000;
+    src: url('../Fonts/AoboshiOne-Regular.ttf')
+}
+
+@font-face {
+    font-family: "Antic";
+    font-weight: 400;
+    src: url('../Fonts/Antic-Regular.ttf');
+}
+
+body, input, label, option{
+    font-family: "Aoboshi"!important;
+}

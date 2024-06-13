@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/color.css">
+</head>
+<body>
+    <div id="section-1">
+        <div id="container">
+            <div class="text size-1">Cateringz</div>
+            <form action="" method="get" id="register-form">
+                <div class="form">
+                    <label for="">Name</label>
+                    <input type="text" name="name" id="name" placeholder="at least 8 characters..." />
+                </div>
+                <div class="form">
+                    <label for="">Email</label>
+                    <input type="email" name="email" id="email" placeholder="email@example.com" />
+                </div>
+                <div class="form">
+                    <label for="">Address</label>
+                    <input type="text" name="address" id="address" placeholder="address..."/>
+                </div>
+                <div class="form">
+                    <label for="">Date of Birth</label>
+                    <input type="date" name="begin" id="DateOfBirth" placeholder="dd-mm-yyyy" value="" max="2024-06-07"/>
+                </div>
+                <div class="form">
+                    <label for="">Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="none">-</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                <div class="flex align-center justify-center gap gap-2">
+                    <div onclick="validateAll()" type="button" class="button pd-1 bg-green rad-1" id="submitBtn">
+                        <!-- <a href="main-page.html" id="cancel" class="text white size-2"> -->
+                            <div class="flex align-center justify-center">
+                                <h3 class="text white size-2">Register</h3>
+                            </div>
+                        <!-- </a> -->
+                    </div>
+                    <div onclick="" type="button" class="button pd-1 bg-green rad-1" id="submitBtn">
+                        <a href="main-page.html" id="cancel" class="text white size-2">
+                            <div class="flex align-center justify-center">
+                                Cancel
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
